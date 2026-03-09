@@ -22,6 +22,8 @@ We apply techniques from data science and quantitative finance to insurance pric
 | [insurance-quantile](https://github.com/burning-cost/insurance-quantile) | Quantile GBM for tail risk and TVaR |
 | [insurance-ilf](https://github.com/burning-cost/insurance-ilf) | MBBEFD exposure curves and ILF tables |
 | [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Conformal prediction intervals for Tweedie/Poisson |
+| [insurance-trend](https://github.com/burning-cost/insurance-trend) | Loss cost trend analysis with structural break detection |
+| [insurance-anam](https://github.com/burning-cost/insurance-anam) | Actuarial Neural Additive Model (interpretable deep learning) |
 
 ### Causal Inference & Elasticity
 
@@ -47,6 +49,7 @@ We apply techniques from data science and quantitative finance to insurance pric
 | Library | Description |
 |---------|-------------|
 | [rate-optimiser](https://github.com/burning-cost/rate-optimiser) | Constrained rate optimisation with efficient frontier |
+| [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained portfolio rate optimisation |
 | [insurance-survival](https://github.com/burning-cost/insurance-survival) | Survival models, cure rate, CLV |
 | [experience-rating](https://github.com/burning-cost/experience-rating) | NCD/bonus-malus factors |
 | [insurance-synthetic](https://github.com/burning-cost/insurance-synthetic) | Vine copula synthetic portfolio generation |
