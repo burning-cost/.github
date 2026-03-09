@@ -43,6 +43,7 @@ We apply techniques from data science and quantitative finance to insurance pric
 | [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted drift detection |
 | [insurance-deploy](https://github.com/burning-cost/insurance-deploy) | Champion/challenger framework with audit trail |
 | [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | Proxy discrimination auditing (FCA EP25/2) |
+| [insurance-mrm](https://github.com/burning-cost/insurance-mrm) | Model risk management: ModelCard, inventory, risk tier scoring, governance reports |
 
 ### Optimisation & Data
 
@@ -57,6 +58,6 @@ We apply techniques from data science and quantitative finance to insurance pric
 
 ---
 
-All libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+28 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing actuaries, for pricing actuaries.
