@@ -1,8 +1,8 @@
 # Burning Cost
 
-Open-source pricing tools for UK personal lines insurance.
+On the forefront of machine learning and data science research in UK personal lines insurance. Helping teams adopt best practice, best-in-class tooling, and Databricks.
 
-We apply techniques from data science and quantitative finance to insurance pricing problems that practitioners actually face — not the toy examples in textbooks. Everything ships as a Python library with Databricks tutorials showing the full workflow on realistic synthetic data.
+Everything ships as a Python library with Databricks tutorials showing the full workflow on realistic synthetic data.
 
 ---
 
@@ -60,4 +60,4 @@ We apply techniques from data science and quantitative finance to insurance pric
 
 28 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
-Built by pricing actuaries, for pricing actuaries.
+Built by pricing practitioners, for pricing practitioners.
