@@ -40,6 +40,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 |---------|-------------|
 | [insurance-cv](https://github.com/burning-cost/insurance-cv) | Temporal cross-validation for insurance |
 | [insurance-validation](https://github.com/burning-cost/insurance-validation) | PRA SS1/23 model validation reports |
+| [insurance-calibration](https://github.com/burning-cost/insurance-calibration) | Balance testing, auto-calibration curves, Murphy score decomposition |
 | [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted drift detection |
 | [insurance-deploy](https://github.com/burning-cost/insurance-deploy) | Champion/challenger framework with audit trail |
 | [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | Proxy discrimination auditing (FCA EP25/2) |
