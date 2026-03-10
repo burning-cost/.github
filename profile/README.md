@@ -49,6 +49,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted drift detection |
 | [insurance-deploy](https://github.com/burning-cost/insurance-deploy) | Champion/challenger framework with audit trail |
 | [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | Proxy discrimination auditing (FCA EP25/2) |
+| [insurance-fairness-ot](https://github.com/burning-cost/insurance-fairness-ot) | Optimal transport discrimination-free pricing (Lindholm, Wasserstein barycenter) |
 | [insurance-mrm](https://github.com/burning-cost/insurance-mrm) | Model risk management: ModelCard, inventory, risk tier scoring, governance reports |
 
 ### Optimisation & Data
@@ -64,6 +65,6 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 
 ---
 
-34 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+35 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing practitioners, for pricing practitioners.
