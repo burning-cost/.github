@@ -29,6 +29,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | Whittaker-Henderson 1D/2D smoothing with REML lambda selection |
 | [insurance-drn](https://github.com/burning-cost/insurance-drn) | Distributional Refinement Network - full predictive distributions from any baseline |
 | [insurance-distributional-glm](https://github.com/burning-cost/insurance-distributional-glm) | GAMLSS for Python - model variance and shape as functions of covariates |
+| [insurance-telematics](https://github.com/burning-cost/insurance-telematics) | HMM/CTHMM telematics risk scoring with TripSimulator and credibility aggregation |
 
 ### Causal Inference & Elasticity
 
@@ -65,6 +66,6 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 
 ---
 
-35 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+36 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing practitioners, for pricing practitioners.
