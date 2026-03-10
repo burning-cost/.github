@@ -24,6 +24,11 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Conformal prediction intervals for Tweedie/Poisson |
 | [insurance-trend](https://github.com/burning-cost/insurance-trend) | Loss cost trend analysis with structural break detection |
 | [insurance-anam](https://github.com/burning-cost/insurance-anam) | Actuarial Neural Additive Model (interpretable deep learning) |
+| [insurance-nested-glm](https://github.com/burning-cost/insurance-nested-glm) | Nested GLMs with neural network embeddings for territory clustering |
+| [insurance-ebm](https://github.com/burning-cost/insurance-ebm) | Explainable Boosting Machine wrapper with relativities and monotonicity editing |
+| [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | Whittaker-Henderson 1D/2D smoothing with REML lambda selection |
+| [insurance-drn](https://github.com/burning-cost/insurance-drn) | Distributional Refinement Network - full predictive distributions from any baseline |
+| [insurance-distributional-glm](https://github.com/burning-cost/insurance-distributional-glm) | GAMLSS for Python - model variance and shape as functions of covariates |
 
 ### Causal Inference & Elasticity
 
@@ -59,6 +64,6 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 
 ---
 
-28 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+34 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing practitioners, for pricing practitioners.
