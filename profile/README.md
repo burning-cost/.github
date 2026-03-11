@@ -29,7 +29,18 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | Whittaker-Henderson 1D/2D smoothing with REML lambda selection |
 | [insurance-drn](https://github.com/burning-cost/insurance-drn) | Distributional Refinement Network - full predictive distributions from any baseline |
 | [insurance-distributional-glm](https://github.com/burning-cost/insurance-distributional-glm) | GAMLSS for Python - model variance and shape as functions of covariates |
+| [insurance-dispersion](https://github.com/burning-cost/insurance-dispersion) | Double GLM for joint mean-dispersion modelling — alternating IRLS, REML, actuarial factor tables |
+| [insurance-composite](https://github.com/burning-cost/insurance-composite) | Composite severity regression — spliced body/tail with covariate-dependent threshold, ILF, TVaR |
 | [insurance-telematics](https://github.com/burning-cost/insurance-telematics) | HMM/CTHMM telematics risk scoring with TripSimulator and credibility aggregation |
+| [insurance-glm-cluster](https://github.com/burning-cost/insurance-glm-cluster) | R2VF factor level clustering — collapses high-cardinality categoricals into pricing bands |
+| [insurance-sensitivity](https://github.com/burning-cost/insurance-sensitivity) | Shapley effects for rating factor variance decomposition |
+
+### Experience Rating & Credibility
+
+| Library | Description |
+|---------|-------------|
+| [experience-rating](https://github.com/burning-cost/experience-rating) | NCD/bonus-malus factors, Markov chains, claiming threshold optimisation |
+| [insurance-experience](https://github.com/burning-cost/insurance-experience) | Individual Bayesian posterior experience rating — static/dynamic/surrogate/deep attention credibility |
 
 ### Causal Inference & Elasticity
 
@@ -51,6 +62,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-deploy](https://github.com/burning-cost/insurance-deploy) | Champion/challenger framework with audit trail |
 | [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | Proxy discrimination auditing (FCA EP25/2) |
 | [insurance-fairness-ot](https://github.com/burning-cost/insurance-fairness-ot) | Optimal transport discrimination-free pricing (Lindholm, Wasserstein barycenter) |
+| [insurance-fairness-diag](https://github.com/burning-cost/insurance-fairness-diag) | D_proxy scalar, Shapley attribution of discrimination, per-policyholder vulnerability scores |
 | [insurance-mrm](https://github.com/burning-cost/insurance-mrm) | Model risk management: ModelCard, inventory, risk tier scoring, governance reports |
 
 ### Optimisation & Data
@@ -60,12 +72,12 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [rate-optimiser](https://github.com/burning-cost/rate-optimiser) | Constrained rate optimisation with efficient frontier |
 | [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained portfolio rate optimisation |
 | [insurance-survival](https://github.com/burning-cost/insurance-survival) | Survival models, cure rate, CLV |
-| [experience-rating](https://github.com/burning-cost/experience-rating) | NCD/bonus-malus factors |
+| [insurance-nowcast](https://github.com/burning-cost/insurance-nowcast) | ML-EM nowcasting for claims reporting delays and IBNR by risk segment |
 | [insurance-synthetic](https://github.com/burning-cost/insurance-synthetic) | Vine copula synthetic portfolio generation |
 | [insurance-datasets](https://github.com/burning-cost/insurance-datasets) | Synthetic UK motor data with known DGP |
 
 ---
 
-36 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+43 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing practitioners, for pricing practitioners.
