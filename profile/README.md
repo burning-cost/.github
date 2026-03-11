@@ -72,12 +72,13 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [rate-optimiser](https://github.com/burning-cost/rate-optimiser) | Constrained rate optimisation with efficient frontier |
 | [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained portfolio rate optimisation |
 | [insurance-survival](https://github.com/burning-cost/insurance-survival) | Survival models, cure rate, CLV |
+| [insurance-uplift](https://github.com/burning-cost/insurance-uplift) | HTE uplift modelling for retention — CausalForestDML, Qini/AUUC, four customer taxonomy, PolicyTree, ENBP constraint, Consumer Duty fairness audit (127 tests) |
 | [insurance-nowcast](https://github.com/burning-cost/insurance-nowcast) | ML-EM nowcasting for claims reporting delays and IBNR by risk segment |
 | [insurance-synthetic](https://github.com/burning-cost/insurance-synthetic) | Vine copula synthetic portfolio generation |
 | [insurance-datasets](https://github.com/burning-cost/insurance-datasets) | Synthetic UK motor data with known DGP |
 
 ---
 
-43 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+46 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing practitioners, for pricing practitioners.
