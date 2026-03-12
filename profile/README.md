@@ -37,6 +37,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-evt](https://github.com/burning-cost/insurance-evt) | Extreme Value Theory for catastrophic claim severity — GPD/GEV, profile likelihood CIs, censored MLE, reinsurance layer pricing, Solvency II 1-in-200 |
 | [insurance-tabpfn](https://github.com/burning-cost/insurance-tabpfn) | Foundation model pricing for thin segments — TabPFN v2/TabICLv2 backend, GLM benchmark, PDP relativities, CommitteeReport |
 | [insurance-transfer](https://github.com/burning-cost/insurance-transfer) | Transfer learning for thin-segment pricing — Tian-Feng two-step GLMTransfer (first Python impl, Poisson/Gamma), CatBoost source-as-offset GBMTransfer, CANN pre-train/fine-tune, MMD covariate shift test, negative transfer diagnostic |
+| [insurance-copula](https://github.com/burning-cost/insurance-copula) | Vine copulas for multi-peril home insurance pricing — PerilVine, exposure-weighted fitting, BIC structure selection, conditional pricing, aggregate PML simulation |
 
 ### Experience Rating & Credibility
 
@@ -87,6 +88,6 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 
 ---
 
-55 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+56 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing practitioners, for pricing practitioners.
