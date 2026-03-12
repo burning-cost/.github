@@ -35,6 +35,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-glm-cluster](https://github.com/burning-cost/insurance-glm-cluster) | R2VF factor level clustering — collapses high-cardinality categoricals into pricing bands |
 | [insurance-sensitivity](https://github.com/burning-cost/insurance-sensitivity) | Shapley effects for rating factor variance decomposition |
 | [insurance-evt](https://github.com/burning-cost/insurance-evt) | Extreme Value Theory for catastrophic claim severity — GPD/GEV, profile likelihood CIs, censored MLE, reinsurance layer pricing, Solvency II 1-in-200 |
+| [insurance-tabpfn](https://github.com/burning-cost/insurance-tabpfn) | Foundation model pricing for thin segments — TabPFN v2/TabICLv2 backend, GLM benchmark, PDP relativities, CommitteeReport |
 
 ### Experience Rating & Credibility
 
@@ -52,6 +53,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-demand](https://github.com/burning-cost/insurance-demand) | Conversion, retention, DML price elasticity |
 | [insurance-causal-policy](https://github.com/burning-cost/insurance-causal-policy) | SDID for causal rate change evaluation |
 | [insurance-counterfactual-sets](https://github.com/burning-cost/insurance-counterfactual-sets) | Weighted conformal ITE for individual counterfactuals — Lei & Candès 2021, sensitivity analysis, FCA ENBP harm reports |
+| [insurance-mediation](https://github.com/burning-cost/insurance-mediation) | Causal mediation for FCA proxy discrimination — CDE/NDE/NIE, Poisson/Gamma/Tweedie GLMs, Imai sensitivity, FCA HTML report |
 
 ### Model Lifecycle
 
@@ -67,6 +69,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [insurance-fairness-diag](https://github.com/burning-cost/insurance-fairness-diag) | D_proxy scalar, Shapley attribution of discrimination, per-policyholder vulnerability scores |
 | [insurance-mrm](https://github.com/burning-cost/insurance-mrm) | Model risk management: ModelCard, inventory, risk tier scoring, governance reports |
 | [insurance-conformal-fraud](https://github.com/burning-cost/insurance-conformal-fraud) | Conformal anomaly detection for claims fraud — BH FDR control, integrative conformal p-values, IFB Fisher combination, Mondrian stratification |
+| [insurance-reconcile](https://github.com/burning-cost/insurance-reconcile) | Hierarchical forecast reconciliation — PremiumWeightedMinTrace, LossRatioReconciler, FreqSevReconciler, InsuranceHierarchy DSL |
 
 ### Optimisation & Data
 
@@ -75,6 +78,7 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 | [rate-optimiser](https://github.com/burning-cost/rate-optimiser) | Constrained rate optimisation with efficient frontier |
 | [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained portfolio rate optimisation |
 | [insurance-survival](https://github.com/burning-cost/insurance-survival) | Survival models, cure rate, CLV |
+| [insurance-cure](https://github.com/burning-cost/insurance-cure) | Mixture cure models — WeibullMCM/LogNormalMCM/CoxMCM, EM algorithm, Maller-Zhou test, non-claimer scoring |
 | [insurance-uplift](https://github.com/burning-cost/insurance-uplift) | HTE uplift modelling for retention — CausalForestDML, Qini/AUUC, four customer taxonomy, PolicyTree, ENBP constraint, Consumer Duty fairness audit (127 tests) |
 | [insurance-nowcast](https://github.com/burning-cost/insurance-nowcast) | ML-EM nowcasting for claims reporting delays and IBNR by risk segment |
 | [insurance-synthetic](https://github.com/burning-cost/insurance-synthetic) | Vine copula synthetic portfolio generation |
@@ -82,6 +86,6 @@ Everything ships as a Python library with Databricks tutorials showing the full 
 
 ---
 
-50 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
+54 libraries available on [PyPI](https://pypi.org/user/burning-cost/) · Blog and tutorials at [burning-cost.github.io](https://burning-cost.github.io)
 
 Built by pricing practitioners, for pricing practitioners.
