@@ -14,9 +14,9 @@ pip install shap-relativities
 
 ```python
 from shap_relativities import SHAPRelativities
-import lightgbm as lgb
+from catboost import CatBoostRegressor
 
-model = lgb.train(params, train_data)
+model = CatBoostRegressor().fit(X_train, y_train)
 rel = SHAPRelativities(model, base_values={"age_band": "30-35"})
 print(rel.fit(X).relativities_)
 ```
