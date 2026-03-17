@@ -2,7 +2,7 @@
 
 Open-source Python libraries for UK personal lines insurance pricing. Techniques from data science and quantitative finance that Emblem and Radar can't do.
 
-10 flagship libraries · 36 total on [PyPI](https://pypi.org/user/burning-cost/) · 80+ articles at [burning-cost.github.io](https://burning-cost.github.io)
+10 flagship libraries · 37 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
 
 ---
 
@@ -18,7 +18,7 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 | Library | Problem it solves |
 |---------|-------------------|
 | [insurance-causal](https://github.com/burning-cost/insurance-causal) | DML deconfounding - isolate the true effect of a rating factor |
-| [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Distribution-free prediction intervals that actually cover |
+| [insurance-causal-policy](https://github.com/burning-cost/insurance-causal-policy) | Synthetic diff-in-diffs for causal rate change evaluation |
 
 ## Smoothing and Experience Rating
 
@@ -34,6 +34,7 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 | [insurance-gam](https://github.com/burning-cost/insurance-gam) | EBM and Actuarial NAM - non-linear shape functions with exact interpretability |
 | [insurance-distributional-glm](https://github.com/burning-cost/insurance-distributional-glm) | GAMLSS in Python - model variance, shape, and tail as functions of covariates |
 | [insurance-frequency-severity](https://github.com/burning-cost/insurance-frequency-severity) | Sarmanov copula joint modelling - corrects the independence assumption |
+| [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Distribution-free prediction intervals with finite-sample coverage guarantees |
 
 ## Telematics
 
@@ -63,9 +64,9 @@ print(report.proxy_scores_)  # Gini, MI, SHAP for every feature
 
 - [Getting started](https://burning-cost.github.io/getting-started/) - install, first model, first audit
 - [35 Databricks notebooks](https://github.com/burning-cost/burning-cost-examples) - benchmarked against standard approaches
-- [Full library list](https://burning-cost.github.io/tools/) - all 36 libraries with use cases
+- [Full library list](https://burning-cost.github.io/tools/) - all 37 libraries with use cases
 - [API docs](https://burning-cost.github.io/insurance-fairness/) - pdoc references for flagship libraries
-- [Blog](https://burning-cost.github.io) - 80+ articles on pricing methodology
+- [Blog](https://burning-cost.github.io) - 107 articles on pricing methodology
 
 ---
 
