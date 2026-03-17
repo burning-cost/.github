@@ -2,7 +2,7 @@
 
 Open-source Python libraries for UK personal lines insurance pricing. Techniques from data science and quantitative finance that Emblem and Radar can't do.
 
-10 flagship libraries · 37 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
+15 flagship libraries · 37 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
 
 ---
 
@@ -19,6 +19,8 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 |---------|-------------------|
 | [insurance-causal](https://github.com/burning-cost/insurance-causal) | DML deconfounding - isolate the true effect of a rating factor |
 | [insurance-causal-policy](https://github.com/burning-cost/insurance-causal-policy) | Synthetic diff-in-diffs for causal rate change evaluation |
+| [insurance-elasticity](https://github.com/burning-cost/insurance-elasticity) | DR-Learner and CausalForest for causal price elasticity estimation |
+| [insurance-demand](https://github.com/burning-cost/insurance-demand) | Conversion, retention, and DML price elasticity in one pipeline |
 
 ## Smoothing and Experience Rating
 
@@ -26,6 +28,7 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 |---------|-------------------|
 | [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | REML-optimal smoothing for rating tables - replaces manual Excel lambda |
 | [insurance-credibility](https://github.com/burning-cost/insurance-credibility) | Buhlmann-Straub credibility for thin segments and scheme effects |
+| [experience-rating](https://github.com/burning-cost/experience-rating) | Fleet experience modification factors and NCD/bonus-malus |
 
 ## Advanced Modelling
 
@@ -35,6 +38,8 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 | [insurance-distributional-glm](https://github.com/burning-cost/insurance-distributional-glm) | GAMLSS in Python - model variance, shape, and tail as functions of covariates |
 | [insurance-frequency-severity](https://github.com/burning-cost/insurance-frequency-severity) | Sarmanov copula joint modelling - corrects the independence assumption |
 | [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Distribution-free prediction intervals with finite-sample coverage guarantees |
+| [insurance-conformal-ts](https://github.com/burning-cost/insurance-conformal-ts) | Conformal prediction intervals for non-exchangeable claims time series |
+| [insurance-distill](https://github.com/burning-cost/insurance-distill) | GBM-to-GLM distillation for Radar/Emblem - transferability without interpretability loss |
 
 ## Telematics
 
