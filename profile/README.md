@@ -10,7 +10,7 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 
 | Library | Problem it solves |
 |---------|-------------------|
-| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | Proxy discrimination auditing for FCA EP25/2 and Consumer Duty |
+| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | Proxy discrimination auditing for FCA Consumer Duty and Equality Act 2010 |
 | [insurance-governance](https://github.com/burning-cost/insurance-governance) | PRA SS1/23 model validation reports and model risk management |
 
 ## Causal Inference
@@ -56,11 +56,15 @@ pip install insurance-fairness
 ```
 
 ```python
-from insurance_fairness import ProxyDetector
+from insurance_fairness import FairnessAudit
 
-detector = ProxyDetector(protected="gender")
-report = detector.fit(X_train, model)
-print(report.proxy_scores_)  # Gini, MI, SHAP for every feature
+audit = FairnessAudit(
+    protected_col="gender",
+    outcome_col="claim_cost",
+    exposure_col="exposure",
+)
+report = audit.run(df, model)
+print(report.summary())  # RAG status, proxy R², calibration by group
 ```
 
 ---
