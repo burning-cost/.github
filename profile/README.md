@@ -2,7 +2,7 @@
 
 Open-source Python libraries for UK personal lines insurance pricing. Techniques from data science and quantitative finance that Emblem and Radar can't do.
 
-15 flagship libraries · 37 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
+10 flagship libraries · 37 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
 
 ---
 
