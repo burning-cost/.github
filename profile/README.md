@@ -2,7 +2,7 @@
 
 Open-source Python libraries for UK personal lines insurance pricing. Techniques from data science and quantitative finance that Emblem and Radar can't do.
 
-10 flagship libraries · 37 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
+10 flagship libraries · 34 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
 
 ---
 
@@ -17,18 +17,15 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 
 | Library | Problem it solves |
 |---------|-------------------|
-| [insurance-causal](https://github.com/burning-cost/insurance-causal) | DML deconfounding - isolate the true effect of a rating factor |
+| [insurance-causal](https://github.com/burning-cost/insurance-causal) | DML deconfounding, price elasticity (CausalForestDML, DR-Learner) |
 | [insurance-causal-policy](https://github.com/burning-cost/insurance-causal-policy) | Synthetic diff-in-diffs for causal rate change evaluation |
-| [insurance-elasticity](https://github.com/burning-cost/insurance-elasticity) | DR-Learner and CausalForest for causal price elasticity estimation |
-| [insurance-demand](https://github.com/burning-cost/insurance-demand) | Conversion, retention, and DML price elasticity in one pipeline |
 
 ## Smoothing and Experience Rating
 
 | Library | Problem it solves |
 |---------|-------------------|
 | [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | REML-optimal smoothing for rating tables - replaces manual Excel lambda |
-| [insurance-credibility](https://github.com/burning-cost/insurance-credibility) | Buhlmann-Straub credibility for thin segments and scheme effects |
-| [experience-rating](https://github.com/burning-cost/experience-rating) | Fleet experience modification factors and NCD/bonus-malus |
+| [insurance-credibility](https://github.com/burning-cost/insurance-credibility) | Buhlmann-Straub credibility, individual experience rating, NCD/bonus-malus |
 
 ## Advanced Modelling
 
@@ -73,7 +70,7 @@ print(report.summary())  # RAG status, proxy R², calibration by group
 
 - [Getting started](https://burning-cost.github.io/getting-started/) - install, first model, first audit
 - [35 Databricks notebooks](https://github.com/burning-cost/burning-cost-examples) - benchmarked against standard approaches
-- [Full library list](https://burning-cost.github.io/tools/) - all 37 libraries with use cases
+- [Full library list](https://burning-cost.github.io/tools/) - all 34 libraries with use cases
 - [API docs](https://burning-cost.github.io/insurance-fairness/) - pdoc references for flagship libraries
 - [Blog](https://burning-cost.github.io) - 107 articles on pricing methodology
 
