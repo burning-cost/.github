@@ -2,77 +2,64 @@
 
 Open-source Python libraries for UK personal lines insurance pricing. Techniques from data science and quantitative finance that Emblem and Radar can't do.
 
-10 flagship libraries · 34 total on [PyPI](https://pypi.org/user/burning-cost/) · 109 articles at [burning-cost.github.io](https://burning-cost.github.io)
+10 flagship libraries · 34 packages on [PyPI](https://pypi.org/user/burning-cost/) · 15,000+ monthly downloads · [115 articles](https://burning-cost.github.io)
 
 ---
 
-## Regulatory Compliance
+## Flagships
 
-| Library | Problem it solves |
-|---------|-------------------|
-| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | Proxy discrimination auditing for FCA Consumer Duty and Equality Act 2010 |
-| [insurance-governance](https://github.com/burning-cost/insurance-governance) | PRA SS1/23 model validation reports and model risk management |
+### Build Better Models
 
-## Causal Inference
+| Library | What it does |
+|---------|-------------|
+| [shap-relativities](https://github.com/burning-cost/shap-relativities) | Extract GLM-style factor tables from CatBoost — SHAP-based relativities for Radar/Emblem |
+| [insurance-gam](https://github.com/burning-cost/insurance-gam) | EBM and Actuarial NAM — non-linear shape functions with exact Shapley interpretability |
+| [insurance-distill](https://github.com/burning-cost/insurance-distill) | GBM-to-GLM distillation — surrogate factor tables for rating engines |
+| [insurance-distributional](https://github.com/burning-cost/insurance-distributional) | Distributional GBM — TweedieGBM, GammaGBM, ZIPGBM for per-risk volatility |
+| [insurance-cv](https://github.com/burning-cost/insurance-cv) | Temporal cross-validation that respects policy time structure and IBNR lag |
 
-| Library | Problem it solves |
-|---------|-------------------|
-| [insurance-causal](https://github.com/burning-cost/insurance-causal) | DML deconfounding, price elasticity (CausalForestDML, DR-Learner) |
-| [insurance-causal-policy](https://github.com/burning-cost/insurance-causal-policy) | Synthetic diff-in-diffs for causal rate change evaluation |
+### Deploy and Monitor
 
-## Smoothing and Experience Rating
-
-| Library | Problem it solves |
-|---------|-------------------|
-| [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | REML-optimal smoothing for rating tables - replaces manual Excel lambda |
-| [insurance-credibility](https://github.com/burning-cost/insurance-credibility) | Buhlmann-Straub credibility, individual experience rating, NCD/bonus-malus |
-
-## Advanced Modelling
-
-| Library | Problem it solves |
-|---------|-------------------|
-| [insurance-gam](https://github.com/burning-cost/insurance-gam) | EBM and Actuarial NAM - non-linear shape functions with exact interpretability |
-| [insurance-distributional-glm](https://github.com/burning-cost/insurance-distributional-glm) | GAMLSS in Python - model variance, shape, and tail as functions of covariates |
-| [insurance-frequency-severity](https://github.com/burning-cost/insurance-frequency-severity) | Sarmanov copula joint modelling - corrects the independence assumption |
+| Library | What it does |
+|---------|-------------|
+| [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted PSI/CSI, segmented A/E, sequential A/B testing, PIT calibration |
 | [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Distribution-free prediction intervals with finite-sample coverage guarantees |
-| [insurance-conformal-ts](https://github.com/burning-cost/insurance-conformal-ts) | Conformal prediction intervals for non-exchangeable claims time series |
-| [insurance-distill](https://github.com/burning-cost/insurance-distill) | GBM-to-GLM distillation for Radar/Emblem - transferability without interpretability loss |
+| [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained rate optimisation — SLSQP, Pareto frontier, FCA ENBP constraints |
 
-## Telematics
+### Regulatory Compliance
 
-| Library | Problem it solves |
-|---------|-------------------|
-| [insurance-telematics](https://github.com/burning-cost/insurance-telematics) | HMM latent-state features from trip-level sensor data |
+| Library | What it does |
+|---------|-------------|
+| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | FCA proxy discrimination auditing — Consumer Duty, EP25/2, Equality Act 2010 |
+| [insurance-causal](https://github.com/burning-cost/insurance-causal) | DML causal inference — deconfounding, price elasticity, causal forests for HTE |
 
 ---
+
+Plus 24 specialist libraries for [spatial rating](https://github.com/burning-cost/insurance-spatial), [severity modelling](https://github.com/burning-cost/insurance-severity), [telematics](https://github.com/burning-cost/insurance-telematics), [credibility](https://github.com/burning-cost/insurance-credibility), [Bayesian pricing](https://github.com/burning-cost/bayesian-pricing), and more. [Full list →](https://burning-cost.github.io/tools/)
 
 ## Quick Start
 
 ```bash
-uv add insurance-fairness
+pip install shap-relativities
 ```
 
 ```python
-from insurance_fairness import FairnessAudit
+from shap_relativities import ShapRelativities
 
-audit = FairnessAudit(
-    protected_col="gender",
-    outcome_col="claim_cost",
-    exposure_col="exposure",
-)
-report = audit.run(df, model)
-print(report.summary())  # RAG status, proxy R², calibration by group
+sr = ShapRelativities(model, X_train)
+factors = sr.factor_table("driver_age", bins=5)
+print(factors)  # relativity table ready for Radar/Emblem
 ```
 
 ---
 
 ## Resources
 
-- [Getting started](https://burning-cost.github.io/getting-started/) - install, first model, first audit
-- [35 Databricks notebooks](https://github.com/burning-cost/burning-cost-examples) - benchmarked against standard approaches
-- [Full library list](https://burning-cost.github.io/tools/) - all 34 libraries with use cases
-- [API docs](https://burning-cost.github.io/insurance-fairness/) - pdoc references for flagship libraries
-- [Blog](https://burning-cost.github.io) - 109 articles on pricing methodology
+- [Getting started](https://burning-cost.github.io/getting-started/) — install, first model, first audit
+- [39 Databricks notebooks](https://github.com/burning-cost/burning-cost-examples) — every library benchmarked against standard techniques
+- [Full library list](https://burning-cost.github.io/tools/) — all 34 packages with use cases and benchmarks
+- [API docs](https://burning-cost.github.io/insurance-fairness/) — pdoc reference for each flagship
+- [Blog](https://burning-cost.github.io) — 115 articles on pricing methodology
 
 ---
 
