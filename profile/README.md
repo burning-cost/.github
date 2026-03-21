@@ -2,7 +2,7 @@
 
 Open-source Python libraries for UK personal lines insurance pricing. Techniques from data science and quantitative finance that Emblem and Radar can't do.
 
-10 flagship libraries · 34 total on [PyPI](https://pypi.org/user/burning-cost/) · 107 articles at [burning-cost.github.io](https://burning-cost.github.io)
+10 flagship libraries · 34 total on [PyPI](https://pypi.org/user/burning-cost/) · 109 articles at [burning-cost.github.io](https://burning-cost.github.io)
 
 ---
 
@@ -72,7 +72,7 @@ print(report.summary())  # RAG status, proxy R², calibration by group
 - [35 Databricks notebooks](https://github.com/burning-cost/burning-cost-examples) - benchmarked against standard approaches
 - [Full library list](https://burning-cost.github.io/tools/) - all 34 libraries with use cases
 - [API docs](https://burning-cost.github.io/insurance-fairness/) - pdoc references for flagship libraries
-- [Blog](https://burning-cost.github.io) - 107 articles on pricing methodology
+- [Blog](https://burning-cost.github.io) - 109 articles on pricing methodology
 
 ---
 
