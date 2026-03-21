@@ -40,14 +40,15 @@ Plus 24 specialist libraries for [spatial rating](https://github.com/burning-cos
 ## Quick Start
 
 ```bash
-pip install shap-relativities
+pip install "shap-relativities[ml]"
 ```
 
 ```python
-from shap_relativities import ShapRelativities
+from shap_relativities import SHAPRelativities
 
-sr = ShapRelativities(model, X_train)
-factors = sr.factor_table("driver_age", bins=5)
+sr = SHAPRelativities(model, X_train, exposure=exposure)
+sr.fit()
+factors = sr.extract_relativities("driver_age")
 print(factors)  # relativity table ready for Radar/Emblem
 ```
 
