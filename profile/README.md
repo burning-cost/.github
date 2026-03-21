@@ -49,7 +49,7 @@ Open-source Python libraries for UK personal lines insurance pricing. Techniques
 ## Quick Start
 
 ```bash
-pip install insurance-fairness
+uv add insurance-fairness
 ```
 
 ```python
