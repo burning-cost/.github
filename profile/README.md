@@ -27,7 +27,8 @@ We publish 34 libraries in total, covering severity modelling, credibility, spat
 
 ## Resources
 
-- [Website](https://burning-cost.github.io) — documentation and methodology notes
+- [Website](https://burning-cost.github.io) — 121 articles on pricing methodology
 - [Blog](https://burning-cost.github.io/blog/) — worked examples and technique write-ups
+- [47 Databricks notebooks](https://github.com/burning-cost/burning-cost-examples) — benchmarked against standard approaches
 - [PyPI](https://pypi.org/user/burning-cost/) — all packages on PyPI
 - [Getting started](https://burning-cost.github.io/getting-started/) — install and run your first model in five minutes
