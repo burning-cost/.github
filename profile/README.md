@@ -8,7 +8,7 @@ Emblem and Radar handle GLM workhorse modelling well. We build the tools that si
 
 Each library installs with a single `pip install`, ships with CatBoost and Polars as defaults, and runs on Databricks serverless without configuration. Every package includes a worked notebook on synthetic insurance data.
 
-## Libraries
+## Flagship libraries
 
 | Package | Description | Version |
 |---------|-------------|---------|
@@ -23,11 +23,11 @@ Each library installs with a single `pip install`, ships with CatBoost and Polar
 | [insurance-cv](https://github.com/burning-cost/insurance-cv) | Temporal cross-validation for insurance models | ![PyPI](https://img.shields.io/pypi/v/insurance-cv) |
 | [insurance-trend](https://github.com/burning-cost/insurance-trend) | Loss cost trend analysis with structural breaks | ![PyPI](https://img.shields.io/pypi/v/insurance-trend) |
 
-We publish 34 libraries in total, covering severity modelling, credibility, spatial risk, copulas, survival models, GAMs, governance, and more. See the [full list](https://burning-cost.github.io/libraries/).
+We publish 34 libraries in total, covering severity modelling, credibility, spatial risk, copulas, survival models, GAMs, governance, and more. See the [full list](https://burning-cost.github.io/tools/).
 
-## Links
+## Resources
 
 - [Website](https://burning-cost.github.io) — documentation and methodology notes
 - [Blog](https://burning-cost.github.io/blog/) — worked examples and technique write-ups
-- [PyPI](https://pypi.org/search/?q=insurance-&o=&c=Topic+%3A%3A+Scientific%2FEngineering) — all packages on PyPI
+- [PyPI](https://pypi.org/user/burning-cost/) — all packages on PyPI
 - [Getting started](https://burning-cost.github.io/getting-started/) — install and run your first model in five minutes
