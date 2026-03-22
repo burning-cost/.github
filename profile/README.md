@@ -12,18 +12,18 @@ Each library installs with a single `pip install`, ships with CatBoost and Polar
 
 | Package | Description | Version |
 |---------|-------------|---------|
-| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | FCA proxy discrimination auditing (EP25/2, Consumer Duty) | ![PyPI](https://img.shields.io/pypi/v/insurance-fairness) |
-| [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted drift detection (PSI, CSI, A/E, sequential testing) | ![PyPI](https://img.shields.io/pypi/v/insurance-monitoring) |
-| [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Conformal prediction intervals for Tweedie and Poisson models | ![PyPI](https://img.shields.io/pypi/v/insurance-conformal) |
+| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | FCA proxy discrimination auditing (EP25/2, Consumer Duty, Equality Act 2010) | ![PyPI](https://img.shields.io/pypi/v/insurance-fairness) |
+| [insurance-governance](https://github.com/burning-cost/insurance-governance) | PRA SS1/23 model validation reports, model risk management | ![PyPI](https://img.shields.io/pypi/v/insurance-governance) |
 | [insurance-causal](https://github.com/burning-cost/insurance-causal) | Double ML causal inference with CatBoost nuisance models | ![PyPI](https://img.shields.io/pypi/v/insurance-causal) |
-| [shap-relativities](https://github.com/burning-cost/shap-relativities) | SHAP-based rating relativities from GBM models | ![PyPI](https://img.shields.io/pypi/v/shap-relativities) |
-| [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained portfolio rate optimisation | ![PyPI](https://img.shields.io/pypi/v/insurance-optimise) |
-| [insurance-deploy](https://github.com/burning-cost/insurance-deploy) | Champion/challenger deployment framework | ![PyPI](https://img.shields.io/pypi/v/insurance-deploy) |
-| [insurance-distill](https://github.com/burning-cost/insurance-distill) | GBM-to-GLM distillation for rating engines | ![PyPI](https://img.shields.io/pypi/v/insurance-distill) |
-| [insurance-cv](https://github.com/burning-cost/insurance-cv) | Temporal cross-validation for insurance models | ![PyPI](https://img.shields.io/pypi/v/insurance-cv) |
-| [insurance-trend](https://github.com/burning-cost/insurance-trend) | Loss cost trend analysis with structural breaks | ![PyPI](https://img.shields.io/pypi/v/insurance-trend) |
+| [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Conformal prediction intervals for Tweedie and Poisson models | ![PyPI](https://img.shields.io/pypi/v/insurance-conformal) |
+| [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted drift detection (PSI, CSI, A/E, sequential testing) | ![PyPI](https://img.shields.io/pypi/v/insurance-monitoring) |
+| [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | Whittaker-Henderson smoothing — REML lambda, Bayesian CIs | ![PyPI](https://img.shields.io/pypi/v/insurance-whittaker) |
+| [insurance-telematics](https://github.com/burning-cost/insurance-telematics) | HMM telematics risk scoring — trip-level sensor data to GLM features | ![PyPI](https://img.shields.io/pypi/v/insurance-telematics) |
+| [insurance-credibility](https://github.com/burning-cost/insurance-credibility) | Bühlmann-Straub and Bayesian experience rating | ![PyPI](https://img.shields.io/pypi/v/insurance-credibility) |
+| [insurance-frequency-severity](https://github.com/burning-cost/insurance-frequency-severity) | Sarmanov copula joint frequency-severity — analytical premium correction | ![PyPI](https://img.shields.io/pypi/v/insurance-frequency-severity) |
+| [insurance-gam](https://github.com/burning-cost/insurance-gam) | EBM tariffs, Actuarial NAM, Pairwise Interaction Networks, exact Shapley | ![PyPI](https://img.shields.io/pypi/v/insurance-gam) |
 
-We publish 34 libraries in total, covering severity modelling, credibility, spatial risk, copulas, survival models, GAMs, governance, and more. See the [full list](https://burning-cost.github.io/tools/).
+We publish 34 libraries in total — see the [full list](https://burning-cost.github.io/tools/).
 
 ## Resources
 
