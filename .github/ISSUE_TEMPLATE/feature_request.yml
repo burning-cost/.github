@@ -1,0 +1,88 @@
+name: Feature request
+description: Propose a new capability or improvement to an existing one.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: library
+    attributes:
+      label: Library
+      description: Which library would this change?
+      options:
+        - bayesian-pricing
+        - insurance-causal
+        - insurance-causal-policy
+        - insurance-conformal
+        - insurance-conformal-ts
+        - insurance-covariate-shift
+        - insurance-datasets
+        - insurance-deploy
+        - insurance-dispersion
+        - insurance-distributional
+        - insurance-distributional-glm
+        - insurance-distill
+        - insurance-dynamics
+        - insurance-fairness
+        - insurance-frequency-severity
+        - insurance-gam
+        - insurance-glm-tools
+        - insurance-governance
+        - insurance-interactions
+        - insurance-monitoring
+        - insurance-multilevel
+        - insurance-optimise
+        - insurance-quantile
+        - insurance-recurrence
+        - insurance-severity
+        - insurance-spatial
+        - insurance-survival
+        - insurance-synthetic
+        - insurance-telematics
+        - insurance-thin-data
+        - insurance-trend
+        - insurance-whittaker
+        - shap-relativities
+        - new library (describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What pricing problem are you solving?
+      description: >
+        Describe the actuarial or pricing context. What are you trying to achieve?
+        The more specific you are here, the easier it is to assess whether the
+        proposed solution fits the library's scope.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: >
+        Describe what you would like the library to do. Include a sketch of the
+        intended API if you have one — even rough pseudocode is helpful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: >
+        What workarounds or alternative approaches have you tried?
+        Why are they insufficient?
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: >
+        Papers, standards, or prior implementations relevant to the request.
+        CAS papers, ASTIN Bulletin articles, or standard actuarial texts are welcome.
+    validations:
+      required: false
