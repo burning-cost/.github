@@ -25,10 +25,14 @@ Each library installs with a single `pip install`, ships with CatBoost and Polar
 
 22,600+ downloads/month across 34 published packages. Every library includes Databricks notebooks, benchmarks against standard techniques, and honest limitations sections.
 
+## Free course
+
+[**Modern Insurance Pricing with Python and Databricks**](https://github.com/burning-cost/course) — 12 modules covering GLMs, GBMs, SHAP relativities, conformal prediction, Bayesian credibility, rate optimisation, causal demand modelling, monitoring, and spatial territory rating.
+
 ## Resources
 
-- [Website](https://burning-cost.github.io) — 130+ articles on pricing methodology
+- [Website](https://burning-cost.github.io) — 288 articles on pricing methodology
 - [Blog](https://burning-cost.github.io/blog/) — worked examples and technique write-ups
-- [Databricks notebooks](https://github.com/burning-cost/burning-cost-examples) — benchmarked against standard approaches
+- [Course](https://github.com/burning-cost/course) — 12-module pricing course, free and open source
+- [Libraries](https://burning-cost.github.io/libraries/) — documentation, API reference, and expected performance
 - [PyPI](https://pypi.org/user/burning-cost/) — all packages on PyPI
-- [Libraries](https://burning-cost.github.io/libraries/) — documentation, API reference, and expected performance for all flagships
