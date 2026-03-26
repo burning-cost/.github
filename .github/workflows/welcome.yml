@@ -1,0 +1,15 @@
+name: Welcome
+on:
+  issues:
+    types: [opened]
+  pull_requests:
+    types: [opened]
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Thanks for opening an issue! We'll take a look shortly. If you're working on a pricing problem, check out our [getting started guide](https://burning-cost.github.io/libraries/)."
+          pr-message: "Thanks for the contribution! We'll review this soon."
