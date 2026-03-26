@@ -12,14 +12,14 @@ Each library installs with a single `pip install`, ships with CatBoost and Polar
 
 | Package | What it does | Downloads/month |
 |---------|-------------|-----------------|
-| [insurance-causal](https://github.com/burning-cost/insurance-causal) | Double ML causal inference with CatBoost nuisance models | 1,551 |
-| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | FCA proxy discrimination auditing (EP25/2, Consumer Duty, Equality Act 2010) | 1,434 |
-| [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted drift detection (PSI, CSI, A/E, sequential testing) | 1,135 |
-| [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Conformal prediction intervals for Tweedie and Poisson models | ![PyPI](https://img.shields.io/pypi/v/insurance-conformal) |
-| [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained portfolio rate optimisation with FCA ENBP compliance | 875 |
-| [insurance-gam](https://github.com/burning-cost/insurance-gam) | EBM tariffs, Actuarial NAM, PIN, exact Shapley values | 803 |
-| [insurance-credibility](https://github.com/burning-cost/insurance-credibility) | Buhlmann-Straub and Bayesian experience rating | 741 |
-| [insurance-frequency-severity](https://github.com/burning-cost/insurance-frequency-severity) | Sarmanov copula joint frequency-severity modelling | 677 |
+| [insurance-causal](https://github.com/burning-cost/insurance-causal) | Double ML causal inference with CatBoost nuisance models | [![Downloads](https://static.pepy.tech/badge/insurance-causal/month)](https://pepy.tech/project/insurance-causal) |
+| [insurance-fairness](https://github.com/burning-cost/insurance-fairness) | FCA proxy discrimination auditing (EP25/2, Consumer Duty, Equality Act 2010) | [![Downloads](https://static.pepy.tech/badge/insurance-fairness/month)](https://pepy.tech/project/insurance-fairness) |
+| [insurance-monitoring](https://github.com/burning-cost/insurance-monitoring) | Exposure-weighted drift detection (PSI, CSI, A/E, sequential testing) | [![Downloads](https://static.pepy.tech/badge/insurance-monitoring/month)](https://pepy.tech/project/insurance-monitoring) |
+| [insurance-conformal](https://github.com/burning-cost/insurance-conformal) | Conformal prediction intervals for Tweedie and Poisson models | [![Downloads](https://static.pepy.tech/badge/insurance-conformal/month)](https://pepy.tech/project/insurance-conformal) |
+| [insurance-optimise](https://github.com/burning-cost/insurance-optimise) | Constrained portfolio rate optimisation with FCA ENBP compliance | [![Downloads](https://static.pepy.tech/badge/insurance-optimise/month)](https://pepy.tech/project/insurance-optimise) |
+| [insurance-gam](https://github.com/burning-cost/insurance-gam) | EBM tariffs, Actuarial NAM, PIN, exact Shapley values | [![Downloads](https://static.pepy.tech/badge/insurance-gam/month)](https://pepy.tech/project/insurance-gam) |
+| [insurance-credibility](https://github.com/burning-cost/insurance-credibility) | Buhlmann-Straub and Bayesian experience rating | ![PyPI](https://img.shields.io/pypi/v/insurance-credibility) |
+| [insurance-frequency-severity](https://github.com/burning-cost/insurance-frequency-severity) | Sarmanov copula joint frequency-severity modelling | ![PyPI](https://img.shields.io/pypi/v/insurance-frequency-severity) |
 | [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | Whittaker-Henderson smoothing with REML lambda and Bayesian CIs | ![PyPI](https://img.shields.io/pypi/v/insurance-whittaker) |
 | [insurance-telematics](https://github.com/burning-cost/insurance-telematics) | HMM telematics risk scoring from trip-level sensor data | ![PyPI](https://img.shields.io/pypi/v/insurance-telematics) |
 
