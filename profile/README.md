@@ -23,7 +23,7 @@ Each library installs with a single `pip install`, ships with CatBoost and Polar
 | [insurance-whittaker](https://github.com/burning-cost/insurance-whittaker) | Whittaker-Henderson smoothing with REML lambda and Bayesian CIs | ![PyPI](https://img.shields.io/pypi/v/insurance-whittaker) |
 | [insurance-telematics](https://github.com/burning-cost/insurance-telematics) | HMM telematics risk scoring from trip-level sensor data | ![PyPI](https://img.shields.io/pypi/v/insurance-telematics) |
 
-22,600+ downloads/month across 34 published packages. Every library includes Databricks notebooks, benchmarks against standard techniques, and honest limitations sections.
+28,500+ downloads/month across 34 published packages. Every library includes Databricks notebooks, benchmarks against standard techniques, and honest limitations sections.
 
 ## Free course
 
@@ -31,7 +31,7 @@ Each library installs with a single `pip install`, ships with CatBoost and Polar
 
 ## Resources
 
-- [Website](https://burning-cost.github.io) — 288 articles on pricing methodology
+- [Website](https://burning-cost.github.io) — 515+ articles on pricing methodology
 - [Blog](https://burning-cost.github.io/blog/) — worked examples and technique write-ups
 - [Course](https://github.com/burning-cost/course) — 12-module pricing course, free and open source
 - [Libraries](https://burning-cost.github.io/libraries/) — documentation, API reference, and expected performance
