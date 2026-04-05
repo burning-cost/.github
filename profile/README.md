@@ -31,7 +31,7 @@ Each library installs with a single `pip install`, ships with CatBoost and Polar
 
 ## Resources
 
-- [Website](https://burning-cost.github.io) — 518 articles on pricing methodology
+- [Website](https://burning-cost.github.io) — 524 articles on pricing methodology
 - [Blog](https://burning-cost.github.io/blog/) — worked examples and technique write-ups
 - [Course](https://github.com/burning-cost/course) — 12-module pricing course, free and open source
 - [Libraries](https://burning-cost.github.io/libraries/) — documentation, API reference, and expected performance
